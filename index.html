@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8 />
+  <title>Lesson 07 Template</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Solar, Wind, and Hydroelectric Power</h1>
+  </header>
+  <section>
+    <div id="map"></div>
+    <!-- Start row -->
+    <div class="row">
+
+      <!-- Start left column -->
+      <div class="first-column">
+        <h2>Power Plants in the United States</h2>
+        <p>This map represents Solar, Wind, and Hydroelectric energy plants across the United States. Natural gas and
+          coal still provide the second and third largest
+          fuel sources in the country respectively, following oil. Even so, the Grand Coulee Dam in Washington State is
+          the largest energy producer in the country,
+          providing almost 8,000 Megawatts of power to the surrounding arounding area.</p>
+        <ul>
+          <li>See my projects on GitHub: <a href="https://github.com/willchilders1">My Github</a></li>
+          <li>Email Me: <a href="mailto:WSCH224@uky.edu">Will Childers</a></li>
+        </ul>
+
+        <!-- End first column -->
+      </div>
+
+      <!-- Start right column -->
+      <div class="second-column">
+        <img src="https://travelnevada.com/wp-content/uploads/2020/04/lass-id-original-1531421322-5b47a28a510bc.jpg"
+          alt="Fanueil Hall" class="img-fill">
+        <div class="caption">
+          Hoover dam: <a href="https://travelnevada.com/historical-interests/hoover-dam/">Photo
+            provided by TravelNevada</a>
+        </div>
+        <!-- End right column -->
+      </div>
+
+      <!-- End row column -->
+    </div>
+
+  </section>
+  <footer>
+    <a href="https://newmapsplus.github.io">
+      <img src="https://newmapsplus.github.io/assets/graphics/logo-2018-nmp-75px-h-gray.png"
+        alt="University of Kentucky New Maps Plus">
+    </a>
+
+    <a href="https://uky-gis.github.io">
+      <img src="https://newmapsplus.github.io/assets/graphics/logo-2018-geography-75px-h.png"
+        alt="University of Kentucky Department of Geography">
+    </a> </footer>
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+  <script src="data/power-plants.js"></script>
+  <script src="js/app.js"></script>
+
+
+</body>
+
+</html>
